@@ -1,0 +1,13 @@
+{
+  "name": "variants-ts",
+  "version": "1.0.0",
+  "module": "index.ts",
+  "type": "module",
+  "private": false,
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
