@@ -1,13 +1,26 @@
 {
-  "name": "variants-ts",
-  "version": "1.0.0",
-  "module": "index.ts",
-  "type": "module",
-  "private": false,
-  "devDependencies": {
-    "bun-types": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
-  }
+	"name": "variants-ts",
+	"description": "A TypeScript library for algebraic types (variants) with pattern matching",
+	"version": "1.0.1",
+	"license": "MIT",
+	"keywords": [
+		"variants",
+		"algebraic types",
+		"pattern matching",
+		"sum types",
+		"discriminated unions"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vhgn/variants-ts"
+	},
+	"module": "index.ts",
+	"type": "module",
+	"private": false,
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
 }
