@@ -176,3 +176,6 @@ dist
 
 # Direnv
 .direnv
+
+# Dist
+index.js
