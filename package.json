@@ -1,7 +1,7 @@
 {
 	"name": "variants-ts",
 	"description": "A TypeScript library for algebraic types (variants) with pattern matching",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"license": "MIT",
 	"scripts": {
 		"prepublish": "bun build index.ts --outfile index.js"
@@ -17,7 +17,8 @@
 		"type": "git",
 		"url": "https://github.com/vhgn/variants-ts"
 	},
-	"module": "index.js",
+	"main": "index.js",
+	"types": "index.ts",
 	"type": "module",
 	"private": false,
 	"devDependencies": {
